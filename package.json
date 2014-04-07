@@ -1,0 +1,17 @@
+{
+    "license": "Mozilla Public License (MPL) 2.0", 
+    "description": "Demonstrating tendency of content scripts to terminate when any event listener (not just self.port.on) has been completed.", 
+    "contributors": [], 
+    "author": "Lorraine Lee", 
+    "url": "", 
+    "dependencies": [
+        "api-utils", 
+        "addon-kit"
+    ], 
+    "version": "0.0b", 
+    "lib": "lib", 
+    "fullName": "Listener demo", 
+    "main": "main", 
+    "id": "jid1-8pgy0mnKkRmZNw", 
+    "name": "listner-demo"
+}

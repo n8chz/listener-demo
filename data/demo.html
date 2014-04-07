@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>Listner demo</title>
+</head>
+
+<!-- The content script will remove the class from the body element. -->
+<body class="uninitialized">
+
+<form>
+
+<!-- The following button has a click listener from the start -->
+<button onclick="alert('hard coded event listener')">press me for hard-coded event listener</button>
+
+<!-- An event listener will be added to the following button by the content script -->
+<button id="demo">press me for event listener attached by content script</button>
+
+</form>
+
+</body>
+
+</html>
